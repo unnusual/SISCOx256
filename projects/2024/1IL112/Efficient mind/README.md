@@ -1,4 +1,4 @@
-#Eficcient mind
+# Eficcient mind
 
 **Informe de Proyecto Final**
 ---
