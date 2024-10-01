@@ -11,7 +11,7 @@
     scroll-behavior: smooth;
 }
 
-/* Some Variables */
+/* Algunas variables para definir colores*/
 :root {
     --green-color: #3cb815;
     --light-green-color: #c0eb7b;
@@ -21,8 +21,80 @@
     --bg-color: #fff;
 }
 img {
-    width: 100%;
+    width: 150%;
 }
 body {
     color: var(--text-color);
 }
+
+/* Forma de bordeado */
+form {
+    border: 2px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Diseño para todos los botones */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Efecto hover para los botones, se opaca un poco al pasar el cursor encima */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* toque extra al botón de cancelar */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* centra el avatar dentro del contenedor, "great minds" */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* la imagen "great minds" */
+  img.avatar {
+    width: 40%;
+    border-radius: 10%;
+  }
+  
+  /* añadiendo marcos al contenedor */
+  .container {
+    padding: 20px;
+  }
+  
+  /* para el texto de 'Forgot password?' */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Cambia el diseño del span y el cancelar para pantallas pequeñas, teléfonos móviles*/
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
