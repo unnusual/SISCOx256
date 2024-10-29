@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",  // Cambia a "edge" si usas Edge
+            "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome to Debug HTML",
-            "file": "${workspaceFolder}/index.html", // Ruta de tu archivo HTML
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         }
     ]
