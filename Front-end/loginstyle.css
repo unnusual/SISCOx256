@@ -42,13 +42,13 @@ body {
 }
 
 .logoleft img {
-  width: 45px; /* Ajusta el tamaño del logo */
+  width: 35px; /* Ajusta el tamaño del logo */
   height: auto;
   margin-right: 0px; /* Espacio entre el logo y el texto */
 }
 
 .logoleft h1 {
-  font-size: 35px; /* Ajusta el tamaño del texto */
+  font-size: 30px; /* Ajusta el tamaño del texto */
   color: #ffffff; /* Cambia el color según tu paleta de colores */
   margin: 0; /* Elimina el margen por defecto */
 }
